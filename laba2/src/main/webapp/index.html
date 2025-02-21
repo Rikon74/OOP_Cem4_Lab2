@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1920x600') no-repeat center center;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.5rem;
+        }
+        .content {
+            margin: 50px 0;
+        }
+        .feature {
+            text-align: center;
+            padding: 40px 0;
+        }
+        .feature h2 {
+            margin-bottom: 20px;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Сайт Корп</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="services">Услуги</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about">О нас</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact">Контакты</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="feedback">Обратная связь</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<section class="hero">
+    <div class="container">
+        <h1>Добро пожаловать на наш сайт</h1>
+        <p>Мы предлагаем лучшие решения для вашего бизнеса</p>
+    </div>
+</section>
+
+<div class="container content">
+    <h2 class="text-center">Наши Услуги</h2>
+    <div class="row feature">
+        <div class="col-md-4">
+            <h3>Разработка ПО</h3>
+            <p>Мы создаем эффективные и современные программные решения.</p>
+        </div>
+        <div class="col-md-4">
+            <h3>Консалтинг</h3>
+            <p>Наши эксперты помогут вам найти наилучшие решения для вашего бизнеса.</p>
+        </div>
+        <div class="col-md-4">
+            <h3>Поддержка</h3>
+            <p>Мы обеспечиваем круглосуточную поддержку для наших клиентов.</p>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2024 Сайт Корп. Все права защищены.</p>
+        <p><a href="privacy">Политика конфиденциальности</a> | <a href="terms">Условия использования</a></p>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
